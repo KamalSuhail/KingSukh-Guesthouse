@@ -4,10 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
         window.scrollTo(0, 0);
     }, 0);
 
-     // Scroll to top on page reload
-     window.addEventListener('beforeunload', function () {
-        window.scrollTo(0, 0);
-     });
     
     // Navbar Toggle for Small Screens
     const navbarToggler = document.querySelector('.navbar-toggler');
@@ -40,37 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return confirm("Do you want to send an email to this address?");
     }
 
-    // Image Gallery Lightbox
-    const galleryItems = document.querySelectorAll('.gallery-item img');
-    galleryItems.forEach((item) => {
-        item.addEventListener('click', function () {
-            showLightbox(this.src);
-        });
-    });
-
-    function showLightbox(src) {
-        const lightbox = document.createElement('div');
-        lightbox.id = 'lightbox';
-        lightbox.innerHTML = <div class="lightbox-content"><img src="${src}" alt="Gallery Image" /><span class="close-lightbox">&times</span> </div>
-        document.body.appendChild(lightbox);
-        document.body.style.overflow = 'hidden'; // Disable scroll when lightbox is open
-
-        // Close lightbox on click
-        const closeBtn = document.querySelector('.close-lightbox');
-        closeBtn.addEventListener('click', function () {
-            document.body.removeChild(lightbox);
-            document.body.style.overflow = 'auto'; // Re-enable scrolling
-        });
-
-        // Close lightbox on outside click
-        lightbox.addEventListener('click', function (e) {
-            if (e.target.id === 'lightbox') {
-                document.body.removeChild(lightbox);
-                document.body.style.overflow = 'auto';
-            }
-        });
-    }
-
+    
     // Contact Form Validation
     const contactForm = document.querySelector('#contact-form');
     contactForm.addEventListener('submit', function (e) {
@@ -132,10 +98,3 @@ document.addEventListener("DOMContentLoaded", function () {
 $('.carousel').carousel({
     interval: 0.2
   });
-
-
-
-
-
-
-
