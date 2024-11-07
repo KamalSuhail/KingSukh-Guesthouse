@@ -13,6 +13,11 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+.hero-overlay h1,h2,h4 {
+    font-family: "Libre Baskerville", sans-serif;
+    text-transform: uppercase;
+}
+
 .h3{
     text-align: center;
     font-size: 2.0rem;
@@ -23,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Navbar */
 .navbar {
     background-color: transparent; 
-    position:absolute;
+    position:fixed;
     padding: 1rem 0;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -42,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     padding: 0.75rem;
     font-size: 1rem;
+    font-weight: bold;
     cursor:pointer;
 }
 
@@ -98,6 +104,8 @@ h1, h2, h3, h4, h5, h6 {
 .about-section h2{
     color: black;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
 }
 
 .about-text {
@@ -113,12 +121,16 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    opacity: 10; 
+    opacity: 50%; 
     margin-left: 12px;
     transform: translateX(-20px); 
     animation: slideInImages 0.5s ease-in-out;
     position: relative; 
     overflow:hidden;
+}
+
+.about-images:hover {
+    opacity: 100%;
 }
 
 .about-images .frame {
@@ -194,7 +206,10 @@ h1, h2, h3, h4, h5, h6 {
 .rooms-section h2 {
     text-align: center;
     font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
     margin-bottom: 2rem;
+    margin-top: 1rem;
     color: #004080;
 }
 
@@ -260,6 +275,8 @@ h1, h2, h3, h4, h5, h6 {
 #services h2 {
     text-align: center;
     font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
     margin-bottom: 20px;
     color: black;
 }
@@ -283,7 +300,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 8px;
     padding: 20px;
     width: calc(50% - 20px); /* Two columns, with space between */
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     text-align: center;
     text-decoration: none;
     color: inherit;
@@ -437,7 +454,7 @@ h1, h2, h3, h4, h5, h6 {
   /*Contact Section*/
   .contact-section {
     position: relative;
-    background: url("images/ninjo3d-jose-alvarez-lg-ultragear-isometric-room-perspective-2-by-ninjo99\ \(1\).jpg")
+    background: url("images/transparent\ background/pexels-pixabay-531880.jpg")
       no-repeat center center/cover;
     padding: 60px 0;
     margin-top: 150px;
@@ -450,7 +467,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .contact-section .container {
-    background: url("images/ninjo3d-jose-alvarez-lg-ultragear-isometric-room-perspective-2-by-ninjo99\ \(1\).jpg")
+    background: url("images/transparent\ background/pexels-pixabay-531880.jpg")
       no-repeat center center/cover;
     padding: 40px;
     border-radius: 20px;
@@ -467,20 +484,46 @@ h1, h2, h3, h4, h5, h6 {
 
   .contact-info h2{
     color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .contact-section p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .contact-section ul li {
+    text-align: center;
   }
 
   .social-icons {
     margin-left: 30px;
+    text-align: center;
+    margin-top: 20px;
   }
 
   .message-info h2 {
     color:white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .form-control {
     background: rgba(255, 255, 255, 0.8);
     border: 1px solid #ccc;
     border-radius: 10px;
+  }
+
+  .form-control1 {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%; /* Set to 100% of the parent container's width */
+    height: 150px; /* Adjust the height as needed */
+    padding: 10px; /* Optional: for some internal spacing */
+    font-size: 16px; /* Optional: increase text size */
   }
   
   .btn-primary2 {
@@ -507,12 +550,15 @@ h1, h2, h3, h4, h5, h6 {
 .map-section {
     padding: 50px 0;
     background-color:#CFE1B9;
+    background: url("images/globe-7510104_640.jpg");
     text-align: center;
 }
 
 .map-section h2 {
     font-size: 32px;
-    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    color: white;
     margin-bottom: 10px;
 }
 
@@ -524,10 +570,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .map-container {
     max-width: 100%;
-    border-radius: 0px;
-    overflow:hidden;
+    border-radius: 10px;
+    overflow: hidden;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    margin: 0;
+    margin: 10px 10px;
     padding: 0;
 }
 
@@ -862,6 +908,6 @@ input.error, textarea.error {
         font-size: 0.9rem;
     }
 }
-    
+
 
 
