@@ -313,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-/* Statistics Section Styling */
+/* Statistics Section */
 #statistics {
     display: flex;
     justify-content: center;
@@ -352,7 +352,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
- /* Gallery*/
+ /* Gallery Section*/
  .gallery-container {
     text-align: center;
     padding: auto;
@@ -602,10 +602,6 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-.footer-section .footer-bottom-text {
-    color: white;
-}
-
 .footer-section .book-now {
     display: inline-block;
     padding: 10px 30px;
@@ -627,27 +623,25 @@ h1, h2, h3, h4, h5, h6 {
     background-color: darkblue;
 }
 
-@media (max-width: 480px) {
-    .book-now {
-        padding: 10px 20px;
-        font-size: 14px;
-    }
-}
 .social-icons a img {
     width: 24px;
     margin-right: 10px;
 }
 
-.footer-bottom-text {
+.footer-section .footer-bottom-text {
+    color: white;
     text-align: center;
     margin-top: 20px;
-    color: white;
     width: 100%;
+}
+
+/* Error Messages */
+input.error, textarea.error {
+    border: 1px solid red;
 } 
 
 
-
-/* Responsiveness */
+/* Responsiveness 
 @media (max-width: 768px) {
     .navbar .navbar-brand {
         font-size: 1.25rem;
@@ -680,8 +674,194 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+@media (max-width: 480px) {
+    .book-now {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+*/
 
-/* Error Messages */
-input.error, textarea.error {
-    border: 1px solid red;
-} 
+
+/* Responsiveness */
+/* Base font adjustments for smaller screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+/* Navbar Responsiveness */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+}
+
+/* Carousel Responsiveness */
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 60vh; /* Smaller height for mobile */
+    }
+    
+    .carousel-item img {
+        height: 100%;
+        width: auto;
+    }
+}
+
+/* About Section Responsiveness */
+@media (max-width: 992px) {
+    .about-section {
+        padding: 2rem 1rem;
+    }
+
+    .about-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-text {
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .about-images {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-images .frame {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Rooms Section Responsiveness */
+@media (max-width: 992px) {
+    .rooms-section h2 {
+        font-size: 2rem;
+    }
+
+    .room-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .room-card h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/* Services Section Responsiveness */
+@media (max-width: 992px) {
+    .service-item {
+        width: 48%; /* Two columns for medium screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .service-item {
+        width: 100%; /* Full-width for mobile */
+    }
+}
+
+/* Statistics Section Responsiveness */
+@media (max-width: 768px) {
+    .statistics-container {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .stat-item h3 {
+        font-size: 1.5em;
+    }
+
+    .stat-item p {
+        font-size: 0.9em;
+    }
+}
+
+/* Gallery Section Responsiveness */
+@media (max-width: 768px) {
+    .img-gallery {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Fewer columns */
+        grid-auto-rows: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .img-gallery {
+        grid-template-columns: 1fr; /* One column for mobile */
+    }
+}
+
+/* Contact Section Responsiveness */
+@media (max-width: 992px) {
+    .contact-section {
+        padding: 2rem 1rem;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+    .contact-info, .message-info {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .form-control {
+        width: 100%;
+    }
+
+    .btn-primary2 {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
+
+/* Footer Section Responsiveness */
+@media (max-width: 768px) {
+    .container-new {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer-section h3 {
+        font-size: 1.2rem;
+    }
+
+    .footer-section p {
+        font-size: 0.9rem;
+    }
+}
+
+
+
