@@ -44,15 +44,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-nav .nav-link {
+    position: relative;
+    display: inline-block;
     color: white;
-    padding: 0.75rem;
+    padding: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
     font-size: 1rem;
     font-weight: bold;
     cursor:pointer;
 }
 
+.navbar-nav .nav-link::after { 
+    content: ''; 
+    position: absolute; 
+    width: 0; 
+    height: 1.5px; 
+    bottom: 0; 
+    left: 0; 
+    background-color: #ff854f; /* Line color */ 
+    transition: width 0.3s ease; } 
+
 .navbar-nav .nav-link:hover {
-    color: lightskyblue; /* Light Gold */
+    color: lightskyblue; 
+}
+
+.navbar-nav .nav-link:hover::after { 
+    width: 100%;
 }
 
 .navbar .btn-primary {
@@ -69,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 .one{
     margin-left: 10px;
 }
+
 
 /*Carousel Section*/
 .carousel-item {
