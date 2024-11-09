@@ -55,6 +55,13 @@ h1, h2, h3, h4, h5, h6 {
     cursor:pointer;
 }
 
+/* Change the color of links on hover */
+.navbar-nav a:hover {
+    background-color: black;
+    border-radius: 10px;
+}
+
+
 .navbar-nav .nav-link::after { 
     content: ''; 
     position: absolute; 
@@ -62,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 1.5px; 
     bottom: 0; 
     left: 0; 
-    background-color: #ff854f; /* Line color */ 
+    background-color: greenyellow; /* Line color */ 
     transition: width 0.3s ease; } 
 
 .navbar-nav .nav-link:hover {
@@ -73,20 +80,56 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-.navbar .btn-primary {
+/* .navbar .btn-primary {
     background-color: blue;
     border: none;
     font-size: 1rem;
     padding: 0.5rem 1.25rem;
+}  */
+
+.navbar .btn-primary {
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.8s;
+    background-size: 280% auto;
+    background-image: linear-gradient(325deg,#3838ff 0%, rgb(156, 231, 253) 55%, #3838ff 90%);
+    border: none;
+    border-radius: 10px;
+    color: hsla(360 100% 100% / 1);
+    box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25),inset 4px 4px 8px rgba(175, 230, 255, 0.5),inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+    font-weight: bold;
 }
 
 .navbar .btn-primary:hover {
     background-color: darkblue; /* Darker Gold */
+    background-position: right top;
+}
+
+.navbar .btn-primary:is(:focus, :focus-visible, :active) {
+    outline: none;
+    box-shadow: 0 0 0 3px hsla(360 100% 100% / 1), 0 0 0 6px #3838ff;
 }
 
 .one{
     margin-left: 10px;
 }
+
+/*Navbar Scrool Check*/
+/* Default navbar background */
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+/* Navbar background when scrolled */
+.navbar.scrolled {
+    background-color: #333; /* Change to your desired color */
+    transition: background-color 0.3s ease;
+}
+
 
 
 /*Carousel Section*/
@@ -512,10 +555,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .contact-info h2{
     color: black;
-    background-color: lightseagreen;
+    background-color: darkseagreen;
     border-radius: 10px;
     padding: 10px;
-    margin: 10%;
+    margin: 0%;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
   }
@@ -523,7 +566,8 @@ h1, h2, h3, h4, h5, h6 {
   .contact-section p{
     color: white;
     text-align: center;
-    margin-top: 20px;
+    font-size: 1.4rem;
+    margin-top: 50px;
   }
 
   .contact-section p a{
@@ -543,7 +587,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .message-info h2 {
     color:black;
-    background-color: lightseagreen;
+    background-color: darkseagreen;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
