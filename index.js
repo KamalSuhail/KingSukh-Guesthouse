@@ -126,6 +126,25 @@ document.addEventListener("DOMContentLoaded", function () {
         window.scrollTo(0, 0);
     }, 0);
 
+    //About Text and Image Transition
+    const aboutSection = document.querySelector("#about"); // Adjust selector if necessary
+    const aboutText = document.querySelector(".about-text");
+    const aboutImages = document.querySelector(".about-images");
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Add classes to trigger animations
+                aboutText.classList.add("fade-in");
+                aboutImages.classList.add("slide-in");
+                observer.unobserve(entry.target); // Stop observing once animation is triggered
+            }
+        });
+    }, { threshold: 0.1 }); // Trigger when 10% of the section is visible
+
+    observer.observe(aboutSection);
+
+
     // Navbar Toggle for Small Screens
     const navbarToggler = document.querySelector('.navbar-toggler');
     const navbarMenu = document.querySelector('.navbar-collapse');
@@ -230,6 +249,8 @@ document.addEventListener("DOMContentLoaded", function () {
 $('.carousel').carousel({
     interval: 200
 });
+
+
 
 
 
