@@ -1,4 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
+
+    // Navbar Scroll Check
+    const navbar = document.querySelector(".navbar");
+
+    function handleNavbarScroll() {
+        if (window.scrollY > 700) {
+            navbar.classList.add("scrolled");
+        } else {
+            navbar.classList.remove("scrolled");
+        }
+    }
+    
+        window.addEventListener("scroll", handleNavbarScroll);
+    });
+
+    //Scroll to top on page reload
     setTimeout(function () {
         window.scrollTo(0, 0);
     }, 0);
@@ -109,25 +125,20 @@ document.addEventListener("DOMContentLoaded", function () {
         return re.test(String(email).toLowerCase());
     }
 
-    // Navbar Scroll Effect
-    const navbar = document.querySelector(".navbar");
+    //Contact Form Submit Prompt
+    $("#contact-form").submit(function (event) {
+        event.preventDefault();
+        alert("Message Submitted Successfully!");
+        // Add form submission logic here
+   });
 
-    function handleNavbarScroll() {
-        if (window.scrollY > 50) {
-            navbar.classList.add("scrolled");
-        } else {
-            navbar.classList.remove("scrolled");
-        }
-    }
-
-    window.addEventListener("scroll", handleNavbarScroll);
-});
-
-$('.carousel').carousel({
-    interval: 200
-});
+    $('.carousel').carousel({
+        interval: 200
+    });
 
 
+
+    
 
 
 

@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 10px;
 }
 
-/*Navbar Scrool Check*/
+/*Navbar Scroll Check*/
 /* Default navbar background */
 .navbar {
     background-color: transparent;
@@ -139,7 +139,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Navbar background when scrolled */
 .navbar.scrolled {
-    background-color: #333; /* Change to your desired color */
+    background-color: black; /* Change to your desired color */
+    background-image: url(images/guest\ house/pexels-pixabay-531880.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     transition: background-color 0.3s ease;
 }
 
@@ -155,6 +159,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
 }
 
+/*Hero Section*/
 .hero-overlay {
     position: absolute;
     top: 0;
@@ -205,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
 /*About Section*/
 .about-section {
     padding-top: 200px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     background-color: #CFE1B9;
     background-image: url(images/guest\ house/istockphoto.jpg);
     background-size: cover;
@@ -366,13 +371,13 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-/* @keyframes fadeInText {
+@keyframes fadeInText {
     to { 
         opacity: 1; 
         transform: translateY(0);
      } 
     } 
-     */
+     
 @keyframes slideInImages { 
     to { 
         opacity: 1; 
@@ -764,14 +769,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
     .contact-info h2 {
-    color: black;
-    background-color: white;
+    color: wheat;
+    /* background-color: white; */
     border-radius: 10px;
     padding: 10px;
     margin: 70px;
     text-align: center;
-    font-family: "Libre Baskerville", sans-serif;
-    text-transform: capitalize;  
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;  
 }
 
     .contact-info .info-item {
@@ -779,7 +784,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     margin-left: 100px;
     margin-bottom: -20px;
-    margin-top: -20px;
+    margin-top: -30px;
 }
 
     .contact-info .info-item p{
@@ -815,28 +820,28 @@ h1, h2, h3, h4, h5, h6 {
 
     /*Message Info*/
   .message-info h2 {
-    color:black;
-    background-color: white;
+    color:wheat;
+    /* background-color: white; */
     border-radius: 10px;
     padding: 10px;
     margin: 10px 60px;
     text-align: center;
-    font-family: "Libre Baskerville", sans-serif;
-    text-transform: none;  
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;  
 }
 
   .form-control {
-    /* background: rgba(255, 255, 255, 0.8); */
-    color: white;
-    /* border: 1px solid #ccc; */
-    /* border-radius: 10px; */
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 10px;
   }
 
 
   .form-control1 {
-    /* background: rgba(255, 255, 255, 0.8); */
+    background: rgba(255, 255, 255, 0.8);
     color: black;
-    /* border: 1px solid #ccc; */
+    border: 1px solid #ccc;
     border-radius: 10px;
     width: 100%; 
     height: 150px; 
@@ -885,7 +890,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 50px 0;
     padding-bottom: 7%;
     background-color:#CFE1B9;
-    background: url("images/pexels-lara-jameson-8828681.jpg");
+    background: url("images/guest\ house/pexels-lara-jameson-8828681.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1213,3 +1218,157 @@ input.error, textarea.error {
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
     }
+
+
+
+
+/*Responsiveness*/
+/* Media Queries */
+
+/* Small screens (phones) */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        padding: 0.5rem 0;
+    }
+    .navbar-brand {
+        font-size: 1rem;
+    }
+    .navbar-nav .nav-link {
+        font-size: 0.8rem;
+    }
+    .hero-overlay {
+        padding: 20px;
+    }
+    .about-section {
+        padding: 1rem 0;
+    }
+    .rooms-section {
+        padding: 1rem 0;
+    }
+    #services {
+        padding: 1rem 0;
+    }
+    .gallery-container {
+        padding: 1rem;
+    }
+    .contact-section {
+        padding: 1rem 0;
+    }
+    .map-section {
+        padding: 1rem 0;
+    }
+    .footer {
+        padding: 1rem 0;
+    }
+}
+
+/* Medium screens (tablets) */
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        padding: 1rem 0;
+    }
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+    .hero-overlay {
+        padding: 30px;
+    }
+    .about-section {
+        padding: 2rem 0;
+    }
+    .rooms-section {
+        padding: 2rem 0;
+    }
+    #services {
+        padding: 2rem 0;
+    }
+    .gallery-container {
+        padding: 2rem;
+    }
+    .contact-section {
+        padding: 2rem 0;
+    }
+    .map-section {
+        padding: 2rem 0;
+    }
+    .footer {
+        padding: 2rem 0;
+    }
+}
+
+/* Large screens (desktops) */
+@media only screen and (max-width: 1200px) {
+    .navbar {
+        padding: 1.5rem 0;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+        font-size: 1.2rem;
+    }
+    .hero-overlay {
+        padding: 40px;
+    }
+    .about-section {
+        padding: 3rem 0;
+    }
+    .rooms-section {
+        padding: 3rem 0;
+    }
+    #services {
+        padding: 3rem 0;
+    }
+    .gallery-container {
+        padding: 3rem;
+    }
+    .contact-section {
+        padding: 3rem 0;
+    }
+    .map-section {
+        padding: 3rem 0;
+    }
+    .footer {
+        padding: 3rem 0;
+    }
+}
+
+/* Extra large screens (large desktops) */
+@media only screen and (max-width: 1400px) {
+    .navbar {
+        padding: 2rem 0;
+    }
+    .navbar-brand {
+        font-size: 1.8rem;
+    }
+    .navbar-nav .nav-link {
+        font-size: 1.4rem;
+    }
+    .hero-overlay {
+        padding: 50px;
+    }
+    .about-section {
+        padding: 4rem 0;
+    }
+    .rooms-section {
+        padding: 4rem 0;
+    }
+    #services {
+        padding: 4rem 0;
+    }
+    .gallery-container {
+        padding: 4rem;
+    }
+    .contact-section {
+        padding: 4rem 0;
+    }
+    .map-section {
+        padding: 4rem 0;
+    }
+    .footer {
+        padding: 4rem 0;
+    }
+}
