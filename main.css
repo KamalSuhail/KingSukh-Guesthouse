@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
     content: ''; 
     position: absolute; 
     width: 0; 
-    height: 3px; 
+    height: 4px; 
     bottom: 0; 
     left: 0; 
     background-color: darkred; /* Line color */ 
@@ -140,13 +140,20 @@ h1, h2, h3, h4, h5, h6 {
 /* Navbar background when scrolled */
 .navbar.scrolled {
     background-color: black; /* Change to your desired color */
-    background-image: url(images/guest\ house/pexels-pixabay-531880.jpg);
+    background-image: url(images/guest\ house/earth-green-nature.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     transition: background-color 0.3s ease;
 }
 
+.navbar.scrolled .navbar-brand {
+    color: white;
+}
+
+.navbar.scrolled .navbar-brand:hover {
+    color: lightblue;
+} 
 
 
 /*Carousel Section*/
@@ -828,13 +835,16 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;  
+    margin-bottom: 1px;
 }
+
 
   .form-control {
     background: rgba(255, 255, 255, 0.8);
     color: black;
     border: 1px solid #ccc;
     border-radius: 10px;
+    margin-bottom: -10px;
   }
 
 
@@ -863,11 +873,11 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     transition: 0.4s;
     background-size: 280% auto;
-    background-image: linear-gradient(325deg, #000000 0%, #888888 55%, #000000 90%);
+    background-image: linear-gradient(325deg,#3838ff 0%, rgb(156, 231, 253) 55%, #3838ff 90%);
     border: none;
     border-radius: 10px;
     color: hsla(360 100% 100% / 1);
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3), 0px 10px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25),inset 4px 4px 8px rgba(175, 230, 255, 0.5),inset -4px -4px 8px rgba(19, 95, 216, 0.35);
     font-weight: bold;
 
   }
@@ -1223,152 +1233,3 @@ input.error, textarea.error {
 
 
 /*Responsiveness*/
-/* Media Queries */
-
-/* Small screens (phones) */
-@media only screen and (max-width: 600px) {
-    .navbar {
-        padding: 0.5rem 0;
-    }
-    .navbar-brand {
-        font-size: 1rem;
-    }
-    .navbar-nav .nav-link {
-        font-size: 0.8rem;
-    }
-    .hero-overlay {
-        padding: 20px;
-    }
-    .about-section {
-        padding: 1rem 0;
-    }
-    .rooms-section {
-        padding: 1rem 0;
-    }
-    #services {
-        padding: 1rem 0;
-    }
-    .gallery-container {
-        padding: 1rem;
-    }
-    .contact-section {
-        padding: 1rem 0;
-    }
-    .map-section {
-        padding: 1rem 0;
-    }
-    .footer {
-        padding: 1rem 0;
-    }
-}
-
-/* Medium screens (tablets) */
-@media only screen and (max-width: 1024px) {
-    .navbar {
-        padding: 1rem 0;
-    }
-    .navbar-brand {
-        font-size: 1.2rem;
-    }
-    .navbar-nav .nav-link {
-        font-size: 1rem;
-    }
-    .hero-overlay {
-        padding: 30px;
-    }
-    .about-section {
-        padding: 2rem 0;
-    }
-    .rooms-section {
-        padding: 2rem 0;
-    }
-    #services {
-        padding: 2rem 0;
-    }
-    .gallery-container {
-        padding: 2rem;
-    }
-    .contact-section {
-        padding: 2rem 0;
-    }
-    .map-section {
-        padding: 2rem 0;
-    }
-    .footer {
-        padding: 2rem 0;
-    }
-}
-
-/* Large screens (desktops) */
-@media only screen and (max-width: 1200px) {
-    .navbar {
-        padding: 1.5rem 0;
-    }
-    .navbar-brand {
-        font-size: 1.5rem;
-    }
-    .navbar-nav .nav-link {
-        font-size: 1.2rem;
-    }
-    .hero-overlay {
-        padding: 40px;
-    }
-    .about-section {
-        padding: 3rem 0;
-    }
-    .rooms-section {
-        padding: 3rem 0;
-    }
-    #services {
-        padding: 3rem 0;
-    }
-    .gallery-container {
-        padding: 3rem;
-    }
-    .contact-section {
-        padding: 3rem 0;
-    }
-    .map-section {
-        padding: 3rem 0;
-    }
-    .footer {
-        padding: 3rem 0;
-    }
-}
-
-/* Extra large screens (large desktops) */
-@media only screen and (max-width: 1400px) {
-    .navbar {
-        padding: 2rem 0;
-    }
-    .navbar-brand {
-        font-size: 1.8rem;
-    }
-    .navbar-nav .nav-link {
-        font-size: 1.4rem;
-    }
-    .hero-overlay {
-        padding: 50px;
-    }
-    .about-section {
-        padding: 4rem 0;
-    }
-    .rooms-section {
-        padding: 4rem 0;
-    }
-    #services {
-        padding: 4rem 0;
-    }
-    .gallery-container {
-        padding: 4rem;
-    }
-    .contact-section {
-        padding: 4rem 0;
-    }
-    .map-section {
-        padding: 4rem 0;
-    }
-    .footer {
-        padding: 4rem 0;
-    }
-}
