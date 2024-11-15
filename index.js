@@ -152,8 +152,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const errorElement = document.querySelector(`#${field}-error`);
         if (errorElement) {
             errorElement.textContent = message;
-            fieldElement.classList.add('error');
-            console.log(`Error in ${field}: ${message}`); // Debugging log
+            errorElement.classList.add('error-message');
+            // console.log(`Error in ${field}: ${message}`); // Debugging log
         } else {
             console.error(`Error span for ${field} not found.`);
         }
