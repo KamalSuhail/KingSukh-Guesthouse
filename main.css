@@ -8,15 +8,6 @@ body {
     background-color: #E9F5DB;
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 14px; /* Adjust font size for better readability on small screens */
-        line-height: 1.5; /* Adjust line spacing */
-        padding: 10px; /* Add padding for smaller devices */
-        background-color: #E9F5DB; /* Optionally change background for mobile */
-    }
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "Libre Baskerville", sans-serif;
     margin: 0;
@@ -1232,3 +1223,28 @@ h1, h2, h3, h4, h5, h6 {
     }
 
 
+    /*Responsiveness*/
+    /* Extra Small Devices (Phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .hero-overlay h1,
+    .hero-overlay h2,
+    .hero-overlay h3 {
+        font-size: 1.2rem;
+    }
+
+    .about-section {
+        flex-direction: column;
+    }
+
+    .service-item {
+        flex: 1 1 100%;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .footer .footer-section {
+        text-align: left;
+    }
+}
