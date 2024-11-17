@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Navbar background when scrolled */
 .navbar.scrolled {
     background-color: black; 
-    background-image: url(images/guest\ house/earth-green-nature.jpg);
+    background-image: url(images/guest_house/earth-green-nature.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -225,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: #CFE1B9;
-    background-image: url(images/guest\ house/istockphoto.jpg);
+    background-image: url(images/guest_house/istockphoto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -277,8 +277,8 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 70%; 
     margin-left: 12px;
     transform: translateX(-30px ); 
-    /* animation: slideInImages 0.8s ease-in-out;
-    animation-fill-mode: forwards; */
+    animation: slideInImages 0.8s ease-in-out;
+    animation-fill-mode: forwards;
     position: relative; 
     overflow: hidden;
     border-radius: 10px;
@@ -415,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
 .rooms-section {
     padding: 4rem 0;
     background-color: #CFE1B9 ;
-    background-image: url(images/guest\ house/istockphoto.jpg);
+    background-image: url(images/guest_house/istockphoto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -517,7 +517,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 90px;
     padding-bottom: 90px;
     background-color: #CFE1B9;
-    background-image: url(images/guest\ house/istockphoto.jpg);
+    background-image: url(images/guest_house/istockphoto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -597,7 +597,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     padding: 250px 0;
     background-color: transparent; 
-    background-image: url(images/guest\ house/computer-laptop.png);
+    background-image: url(images/guest_house/computer-laptop.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -660,7 +660,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-bottom: 0px;
     background-color: #CFE1B9;
-    background-image: url(images/guest\ house/istockphoto.jpg);
+    background-image: url(images/guest_house/istockphoto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -744,7 +744,7 @@ h1, h2, h3, h4, h5, h6 {
   /*Contact Info*/
   .contact-section {
     position: relative;
-    background: url("images/guest\ house/modern-office.jpg")
+    background: url("images/guest_house/modern-office.jpg")
       no-repeat center center/cover;
     padding: 60px 0;
     margin-top: 0px;
@@ -752,7 +752,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .contact-section .container {
-    /* background: url("images/guest\ house/top-view-worktable.avif")
+    /* background: url("images/guest_house/top-view-worktable.avif")
       no-repeat center center/cover; */
     padding: 40px;
     /* border-radius: 20px; */
@@ -769,7 +769,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .contact-info {
     /* background-color: black;  */
-    /* background-image: url(/images/guest\ house/top-view-worktable.avif); */
+    /* background-image: url(/images/guest_house/top-view-worktable.avif); */
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -961,7 +961,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 50px 0;
     padding-bottom: 7%;
     background-color:#CFE1B9;
-    background: url("images/guest\ house/pexels-lara-jameson-8828681.jpg");
+    background: url("images/guest_house/pexels-lara-jameson-8828681.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1017,7 +1017,7 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
     width: 100%;
     /* background-color: #000; */
-    background-image: url(images/guest\ house/footer-bg.jpg);
+    background-image: url(images/guest_house/footer-bg.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
