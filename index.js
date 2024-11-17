@@ -14,37 +14,37 @@ document.addEventListener("DOMContentLoaded", function () {
     
     window.addEventListener("scroll", handleNavbarScroll);
 
-    //About Text and Image Transition
-    const about = document.querySelector('#about'); // Adjust selector if necessary
-    const aboutSection = document.querySelector('.about-section');
-    const aboutText = document.querySelector('.about-text');
-    const aboutImages = document.querySelector('.about-images');
+    // //About Text and Image Transition
+    // const about = document.querySelector('#about'); // Adjust selector if necessary
+    // const aboutSection = document.querySelector('.about-section');
+    // const aboutText = document.querySelector('.about-text');
+    // const aboutImages = document.querySelector('.about-images');
 
-    const textObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                console.log("About text is in view, triggering fade-in animation.");
-                // Add classes to trigger animations
-                aboutText.classList.add('fade-in');
-                observer.unobserve(entry.target); // Stop observing once animation is triggered
-            }
-        });
-    }, { threshold: 0.1 }); // Trigger when 10% of the section is visible
+    // const textObserver = new IntersectionObserver((entries, observer) => {
+    //     entries.forEach(entry => {
+    //         if (entry.isIntersecting) {
+    //             console.log("About text is in view, triggering fade-in animation.");
+    //             // Add classes to trigger animations
+    //             aboutText.classList.add('fade-in');
+    //             observer.unobserve(entry.target); // Stop observing once animation is triggered
+    //         }
+    //     });
+    // }, { threshold: 0.1 }); // Trigger when 10% of the section is visible
 
     
-    const imageObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                console.log("About images are in view, triggering slide-in animation.");
-                aboutImages.classList.add('slide-in');
-                observer.unobserve(entry.target); // Stop observing once animation is triggered
-            }
-        });
-    }, { threshold: 0.1 });
+    // const imageObserver = new IntersectionObserver((entries, observer) => {
+    //     entries.forEach(entry => {
+    //         if (entry.isIntersecting) {
+    //             console.log("About images are in view, triggering slide-in animation.");
+    //             aboutImages.classList.add('slide-in');
+    //             observer.unobserve(entry.target); // Stop observing once animation is triggered
+    //         }
+    //     });
+    // }, { threshold: 0.1 });
 
-    // Start observing each element
-    if (aboutText) textObserver.observe(aboutText);
-    if (aboutImages) imageObserver.observe(aboutImages);
+    // // Start observing each element
+    // if (aboutText) textObserver.observe(aboutText);
+    // if (aboutImages) imageObserver.observe(aboutImages);
 
 
     // Navbar Toggle for Small Screens
