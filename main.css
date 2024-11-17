@@ -794,6 +794,10 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;  
 }
 
+    .contact-info h2 span {
+        color: red;
+    }
+
     .contact-info .info-item {
     display: flex;
     align-items: center;
