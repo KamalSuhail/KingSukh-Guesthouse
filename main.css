@@ -28,7 +28,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-overlay h1,h2,h3 {
     font-family: "Playfair Display";
+    font-weight: bold;
     text-transform: uppercase;
+}
+
+.hero-overlay h1 span{
+    color: firebrick;
+    font-weight: bold;
 }
 
 
