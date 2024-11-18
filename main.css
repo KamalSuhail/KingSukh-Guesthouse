@@ -1093,8 +1093,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 10px;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
     font-weight: bold;
     font-size:larger;
+}
+
+.footer-section link {
+    text-transform: uppercase;
 }
 
 .footer-section h3 a{
