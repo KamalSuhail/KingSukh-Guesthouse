@@ -84,8 +84,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-brand:focus,.navbar-brand:active {
-    color: white !important; /* Prevent color change on focus or click */
-    outline: none;           /* Remove outline if it appears */
+    color: white !important; 
+    outline: none;           
 }
 
 .navbar-nav .nav-link {
@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     transition: color 0.3s ease;
     font-family: "Libre Baskerville", sans-serif;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-size: 18px;
     font-weight: bold;
     font-style: normal;
@@ -121,8 +121,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: lightblue;
     border-radius: 0px;
     height: 50px;
-    line-height: 30px; /* Match the text alignment */
-    transition: all 0.3s ease; /* Smooth hover effect */
+    line-height: 30px;
+    transition: all 0.3s ease; 
 }
 
 
@@ -152,6 +152,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
     font-size: 18px;
     text-align: center;
+    text-transform: uppercase;
     transition: 0.4s;
     background-size: 280% auto;
     background-image: linear-gradient(325deg,#3838ff 0%, rgb(156, 231, 253) 55%, #3838ff 90%);
@@ -204,6 +205,7 @@ h1, h2, h3, h4, h5, h6 {
 /*Carousel Section*/
 .carousel-item {
     height: 100vh;
+    transition: transform 0.5s ease-in-out;
 }
 
 .carousel-item img {
@@ -668,7 +670,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
     background-color: black;
     opacity: 70%;
-    /* background-image: url(images/guest\ house/footer-bg.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -808,24 +809,16 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .contact-section .container {
-    /* background: url("images/guest_house/top-view-worktable.avif")
-      no-repeat center center/cover; */
     padding: 40px;
-    /* border-radius: 20px; */
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
   }
   
   .contact-form {
     background: transparent;
     padding: 40px;
     margin: 20px;
-    /* border-radius: 20px; */
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
   }
 
   .contact-info {
-    /* background-color: black;  */
-    /* background-image: url(/images/guest_house/top-view-worktable.avif); */
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -884,6 +877,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 20px;
     text-align: center;
     margin-top: 1px;
+    background: linear-gradient(45deg, #F4E7FB, #F3DCDC, #F5BCBA, #E3AADD, #C8A8E9, #C3C7F3);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    transition: 0.3s ease; 
 }
 
     .contact-info .social-icons img{
@@ -904,18 +902,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
     .contact-info .social-icons img:hover {
-    border-color: #00FF00; /* Green border on hover */
-    box-shadow: 0 0 15px rgba(0, 255, 0, 0.6); /* Glow effect */
-    transform: scale(1.3); /* Slight zoom effect */
+    border-color: #00FF00; 
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.6);  
+    transform: scale(1.3); 
 }
 
 
     /*Message Info*/
     .message-info {
-    margin-top: 0px; /* Adjust the position of the form container */
-    padding: 10px; /* Add padding inside the form container */
-    max-width: 1000px; /* Optional: Set a maximum width for the form */
-    margin: -150px auto; /* Center the form horizontally */
+    margin-top: 0px; 
+    padding: 10px; 
+    max-width: 1000px; 
+    margin: -150px auto; 
 }
 
   .message-info h2 {
@@ -952,7 +950,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   textarea.form-control {
-    resize: none; /* Optional: Disable resizing if not desired */
+    resize: none; 
 }
 
   .form-control1 {
@@ -973,7 +971,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 120px;
     height: 40px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     transition: 0.4s;
     background-size: 280% auto;
@@ -995,7 +993,6 @@ h1, h2, h3, h4, h5, h6 {
 
   .btn-primary2:is(:focus, :focus-visible, :active) {
     outline: none;
-    /* box-shadow: 0 0 0 3px hsla(360 100% 100% / 1), 0 0 0 6px #3838ff; */
     }
 
     /* Error Messages */
@@ -1005,10 +1002,10 @@ h1, h2, h3, h4, h5, h6 {
         } 
 
     .error-message {
-    color: darkred;          /* Changes the color to red */
-    font-size: 0.9em;    /* Optional: Adjust font size */
+    color: darkred;     
+    font-size: 0.9em;    
     font-weight: bold;
-    margin-top: 11px;     /* Adds spacing between input and message */
+    margin-top: 11px;     
     display: block;
 }
 
@@ -1073,7 +1070,6 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     clear: both;
     width: 100%;
-    /* background-color: #000; */
     background-image: url(assets/footer-bg.jpg);
     background-size:cover;
     background-repeat: no-repeat;
@@ -1204,13 +1200,11 @@ h1, h2, h3, h4, h5, h6 {
     from {
     opacity: 0;
     scale: 0.5;
-    /* transform: translateX(-100px); */
     }
     
     to {
     opacity: 1;
     scale: 1;
-    /* transform: translateX(0px); */
     }
 }
     
@@ -1225,13 +1219,11 @@ h1, h2, h3, h4, h5, h6 {
     from {
     opacity: 0;
     scale: 0.5;
-    /* transform: translateX(-100px); */
     }
         
     to {
     opacity: 1;
     scale: 1;
-    /* transform: translateX(0px); */
     }
 }
         
@@ -1245,13 +1237,11 @@ h1, h2, h3, h4, h5, h6 {
     from {
     opacity: 0;
     scale: 0.5;
-    /* transform: translateX(-100px); */
     }
             
     to {
     opacity: 1;
     scale: 1;
-    /* transform: translateX(0px); */
     }
 }
             
@@ -1264,13 +1254,11 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes appear {
     from {
     opacity: 0;
-    /* scale: 0.5; */
     transform: translateX(-100px);
     }
             
     to {
     opacity: 1;
-    /* scale: 1; */
     transform: translateX(0px);
     }
 }
@@ -1284,13 +1272,11 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes appear {
     from {
     opacity: 0;
-    /* scale: 0.5; */
     transform: translateX(-100px);
     }
         
     to {
     opacity: 1;
-    /* scale: 1; */
     transform: translateX(0px);
     }
 }
@@ -1305,13 +1291,11 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes appear {
     from {
     opacity: 0;
-    /* scale: 0.5; */
     transform: translateX(-100px);
     }
             
     to {
     opacity: 1;
-    /* scale: 1; */
     transform: translateX(0px);
     }
 }
@@ -1325,13 +1309,11 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes appear {
     from {
     opacity: 0;
-    /* scale: 0.5; */
     transform: translateX(-100px);
     }
             
     to {
     opacity: 1;
-    /* scale: 1; */
     transform: translateX(0px);
     }
 }
@@ -1346,13 +1328,11 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes appear {
     from {
     opacity: 0;
-    /* scale: 0.5; */
     transform: translateX(-100px);
     }
                 
     to {
     opacity: 1;
-    /* scale: 1; */
     transform: translateX(0px);
     }
 }
@@ -1362,6 +1342,3 @@ h1, h2, h3, h4, h5, h6 {
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
     }
-
-
-
