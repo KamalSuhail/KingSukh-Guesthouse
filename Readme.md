@@ -6,11 +6,15 @@ Features:
 
 • Responsive Design: Optimized for desktop devices.
 
-• Interactive Sections:<br>
-    • Carousel for showcasing images.<br>
-    • Smooth scrolling for navigation.<br>
-    • Form validation for user input.
-    
+<ul>
+    <li>Interactive Sections:</li><br>
+    <ul>
+        <li>Carousel for showcasing images.</li>
+        <li>Smooth scrolling for navigation.</li>
+        <li>Form validation for user input.</li>
+    </ul>
+</ul>   
+
 • Animations: Includes hover effects, transition animations, and interactive gallery.
 
 • Modern Design: Use of linear gradients, box shadows, and modern UI components.
