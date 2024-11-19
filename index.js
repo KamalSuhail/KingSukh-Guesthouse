@@ -13,19 +13,18 @@ document.addEventListener("DOMContentLoaded", function () {
     
     window.addEventListener("scroll", handleNavbarScroll);
 
-    // Carousel Transition
-    $(document).ready(function () {
-        $('#carouselExampleSlidesOnly').carousel({
-            interval: 2000 
-        });
-    });
-
-    
     // Navbar Toggle for Small Screens
     const navbarToggler = document.querySelector('.navbar-toggler');
     const navbarMenu = document.querySelector('.navbar-collapse');
     navbarToggler.addEventListener('click', function () {
         navbarMenu.classList.toggle('show');    
+    });
+
+    // Carousel Transition
+    $(document).ready(function () {
+        $('#carouselExampleSlidesOnly').carousel({
+            interval: 2000 
+        });
     });
 
     // Smooth Scroll Functionality
@@ -43,7 +42,6 @@ document.addEventListener("DOMContentLoaded", function () {
             behavior: "smooth"
         });
     }
-
 
     // Contact Form Validation and Submission
     const contactForm = document.querySelector('#contact-form');
@@ -146,7 +144,4 @@ document.addEventListener("DOMContentLoaded", function () {
             fieldElement.classList.remove('error');
         }
     }
-
-     
 });
-
