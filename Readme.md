@@ -23,7 +23,7 @@
 
 <h3>HTML Files</h3>
 
-<li>index.html: The main structure of the website including sections for Home, About Us, Rooms, Services, Gallery, Contact, and Footer.</li>
+<li><block>index.html:</block> The main structure of the website including sections for Home, About Us, Rooms, Services, Gallery, Contact, and Footer.</li>
 
 CSS Files
 main.css: Styles the layout and design of the webpage.
