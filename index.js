@@ -52,8 +52,6 @@ document.addEventListener("DOMContentLoaded", function () {
     if (contactForm) {
         contactForm.addEventListener('submit', function (e) {
             e.preventDefault();
-            console.log("Submit button clicked."); // Debugging log
-
             const firstname = document.querySelector('#firstname').value.trim();
             const lastname = document.querySelector('#lastname').value.trim();
             const mobile = document.querySelector('#mobile').value.trim();
@@ -88,12 +86,25 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
             // Email validation
-            if (!validateEmail(email)) {
-                showError('email', 'Please enter a valid email address');
-                isValid = false;
-            } else {
-                clearError('email');
+            const emailField = document.querySelector('#email');
+
+            function validateEmail(email) {
+                const re = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+                return re.test(email);
             }
+        
+            validateEmail("test@example.com"); 
+            validateEmail("invalid-email");
+
+            emailField.addEventListener('blur', function () {
+                    const email = emailField.value.trim();
+                    if (!validateEmail(email)) {
+                    showError('email', 'Please enter a valid email address');
+                    isValid = false;
+                    } else {
+                    clearError('email');
+                    }
+            });
 
             // Message validation (minimum 50 characters)
             const minMessageLength = 20;
@@ -110,9 +121,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 contactForm.reset();
             }
         });
-    } else {
-        console.error("Contact form not found.");
-    }
+     } else {
+            console.error("Contact form not found.");
+     }
+       
 
     // Helper functions for showing and clearing errors
     function showError(field, message) {
@@ -135,9 +147,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    function validateEmail(email) {
-        const re = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
-        return re.test(email);
-    }
+     
 });
 

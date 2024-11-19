@@ -504,6 +504,10 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
     background-color: #B5C99A;
+    /* background-image: url(assets/red-wood-texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
     height: 100%;
     transition: all 0.3s ease;
 }
@@ -515,7 +519,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .room-card h3 {
+    color: white;
     font-family: "Libre Baskerville", sans-serif;
+    font-weight: bold;
     text-transform: capitalize;
     font-size: 1.5rem;
     margin-top: 1rem;
@@ -524,7 +530,7 @@ h1, h2, h3, h4, h5, h6 {
 .room-card p {
     font-family: "Libre Baskerville", sans-serif;
     text-transform: capitalize;
-    color: black;
+    color: white;
     margin-bottom: 0rem;
 }
 
@@ -605,6 +611,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center; 
     justify-content: center;
     background-color: #B5C99A;
+    background-image: url(assets/digital-technology.jpg);
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 5px;
@@ -644,7 +651,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Libre Baskerville", sans-serif;
     text-transform: capitalize;
     font-size: 16px;
-    color: white;
+    font-weight: bold;
+    color: darkgreen;
 }
 
 
@@ -922,8 +930,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
     margin-left:  60px; 
     margin-right: 60px; 
-    margin-bottom: 1px;
-    margin-top: 100px;
+    margin-bottom: -40px;
+    margin-top: 70px;
     text-align: left;
     letter-spacing: 4px;
     font-family: "Playfair Display";
@@ -942,16 +950,21 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 15px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    margin-bottom: 15px;
-    margin-top: -30px;
+    margin-bottom: -10px;
+    margin-top: -15px;
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
   }
 
+  .form-group label {
+    width: 100%;
+  }
+
   textarea.form-control {
     resize: none; 
-}
+  }
+
 
   .form-control1 {
     background: rgba(255, 255, 255, 0.8);
@@ -968,17 +981,17 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .btn-primary2 {
-    width: 120px;
+    width: 130px;
     height: 40px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 21px;
     text-align: center;
     transition: 0.4s;
     background-size: 280% auto;
     background-image: linear-gradient(325deg,#3838ff 0%, rgb(156, 231, 253) 55%, #3838ff 90%);
     border: none;
     border-radius: 10px;
-    margin-top: -90px;
+    margin-top: -110px;
     color: hsla(360 100% 100% / 1);
     box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25),inset 4px 4px 8px rgba(175, 230, 255, 0.5),inset -4px -4px 8px rgba(19, 95, 216, 0.35);
     font-weight: bold;
