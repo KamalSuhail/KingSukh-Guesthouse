@@ -19,19 +19,3 @@
 <li>Accessible Navigation: Navbar and links for easy user interaction.</li>
 
 
-<h2>File Structure</h2>
-
-<h3>HTML Files</h3>
-
-<li><block>index.html:</block> The main structure of the website including sections for Home, About Us, Rooms, Services, Gallery, Contact, and Footer.</li>
-
-CSS Files
-main.css: Styles the layout and design of the webpage.
-Manages typography, colors, and responsive behavior.
-Includes animation keyframes and hover effects for dynamic UI.
-JavaScript Files
-index.js: Contains JavaScript functionalities such as:
-Navbar scroll effects.
-Smooth scrolling.
-Form validation.
-Carousel controls
