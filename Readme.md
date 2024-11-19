@@ -1,4 +1,4 @@
-KingSukh Guest House
+<strong>KingSukh Guest House</strong>
 
 Welcome to the KingSukh Guest House project repository. This website serves as an interactive platform to showcase the rooms, services, and contact information for the guest house.
 
@@ -6,9 +6,9 @@ Features:
 
 • Responsive Design: Optimized for desktop devices.
 
-• Interactive Sections:
-    • Carousel for showcasing images.
-    • Smooth scrolling for navigation.
+• Interactive Sections:<br>
+    • Carousel for showcasing images.<br>
+    • Smooth scrolling for navigation.<br>
     • Form validation for user input.
     
 • Animations: Includes hover effects, transition animations, and interactive gallery.
