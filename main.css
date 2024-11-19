@@ -501,15 +501,15 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid #ddd;
     border-radius: 20px;
     padding: 20px;
+    margin-top: -15px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
-    background-color: #B5C99A;
-    /* background-image: url(assets/red-wood-texture.png);
+    background-color: transparent;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; */
+    background-position: center;
     height: 100%;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 
 .room-card img {
@@ -519,19 +519,44 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .room-card h3 {
-    color: white;
+    color: yellow;
     font-family: "Libre Baskerville", sans-serif;
     font-weight: bold;
     text-transform: capitalize;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-top: 1rem;
+}
+
+ .middle {
+    margin-top: 0.1rem;
+}
+
+ .last {
+    margin-top: 0.4rem;
 }
 
 .room-card p {
     font-family: "Libre Baskerville", sans-serif;
     text-transform: capitalize;
+    text-align: center;
     color: white;
-    margin-bottom: 0rem;
+    margin-bottom:  0rem;
+}
+
+.room-card .strong {
+    color: black;
+    font-weight: bold;
+}
+
+.new1 {
+    margin-top: 6px;
+}
+.new2 {
+    margin-top: 70px;
+}
+
+.new3 {
+    margin-top: 37px;
 }
 
 .room-card .btn-primary {
