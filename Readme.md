@@ -1,8 +1,8 @@
 <h1>KingSukh Guest House<h1>
 
-Welcome to the KingSukh Guest House project repository. This website serves as an interactive platform to showcase the rooms, services, and contact information for the guest house.
+<p>Welcome to the KingSukh Guest House project repository. This website serves as an interactive platform to showcase the rooms, services, and contact information for the guest house.</p>
 
-<h1>Features:</h1>
+<h2>Features:</h2>
 
 <li>Responsive Design: Optimized for desktop devices.</li>
 
