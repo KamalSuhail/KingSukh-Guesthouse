@@ -1,6 +1,6 @@
-<h1><KingSukh Guest House</h1>
+<h1>KingSukh Guest House<h1>
 
-<p>Welcome to the KingSukh Guest House project repository. This website serves as an interactive platform to showcase the rooms, services, and contact information for the guest house.</p>
+Welcome to the KingSukh Guest House project repository. This website serves as an interactive platform to showcase the rooms, services, and contact information for the guest house.
 
 <h1>Features:</h1>
 
