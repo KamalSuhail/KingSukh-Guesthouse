@@ -6,14 +6,13 @@ Welcome to the KingSukh Guest House project repository. This website serves as a
 
 <li>Responsive Design: Optimized for desktop devices.</li>
 
-<ul>
-    <li>Interactive Sections:</li><br>
+<li>Interactive Sections:</li>
     <ul>
         <li>Carousel for showcasing images.</li>
         <li>Smooth scrolling for navigation.</li>
         <li>Form validation for user input.</li>
     </ul>
-</ul>   
+
 
 • Animations: Includes hover effects, transition animations, and interactive gallery.
 
