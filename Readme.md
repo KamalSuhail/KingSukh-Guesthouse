@@ -21,7 +21,7 @@
 <li><strong>Accessible Navigation</strong>: Navbar and links for easy user interaction.</li>
 
 
-<h2>Technologies Used</h2>
+<h2>Technologies Used:</h2>
 <ul>
     <ul>
     <li>HTML5: For semantic structure.</li>
