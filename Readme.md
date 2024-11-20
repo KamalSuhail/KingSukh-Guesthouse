@@ -6,7 +6,7 @@
 
 <li>Responsive Design: Optimized for Desktop Devices.</li>
 
-<li>Interactive Sections:</li>
+<li>Interactive Sections:</li><br>
 <ul>
         <ul>
         <li>Carousel for showcasing images.</li>
