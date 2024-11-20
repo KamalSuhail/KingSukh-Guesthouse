@@ -4,9 +4,9 @@
 
 <h2>Features:</h2>
 
-<li>Responsive Design: Optimized for Desktop Devices.</li>
+<li><strong>Responsive Design</strong>: Optimized for Desktop Devices.</li>
 
-<li>Interactive Sections:</li><br>
+<li><strong>Interactive Sections</strong>:</li><br>
 <ul>
         <ul>
         <li>Carousel for showcasing images.</li>
@@ -14,11 +14,11 @@
         <li>Form validation for user input.</li>
         </ul>
 </ul>
-<li>Animations: Includes hover effects, transition animations, and interactive gallery.</li>
+<li><strong>Animations</strong>: Includes hover effects, transition animations, and interactive gallery.</li>
 
-<li>Modern Design: Use of linear gradients, box shadows, and modern UI components.</li>
+<li><strong>Modern Design</strong>: Use of linear gradients, box shadows, and modern UI components.</li>
 
-<li>Accessible Navigation: Navbar and links for easy user interaction.</li>
+<li><strong>Accessible Navigation</strong>: Navbar and links for easy user interaction.</li>
 
 
 <h2>Technologies Used</h2>
