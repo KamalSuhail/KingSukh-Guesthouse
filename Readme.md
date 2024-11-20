@@ -7,11 +7,13 @@
 <li>Responsive Design: Optimized for Desktop Devices.</li>
 
 <li>Interactive Sections:</li>
-    <ul>
+<ul>
+        <ul>
         <li>Carousel for showcasing images.</li>
         <li>Smooth scrolling for navigation.</li>
         <li>Form validation for user input.</li>
-    </ul>
+        </ul>
+</ul>
 <li>Animations: Includes hover effects, transition animations, and interactive gallery.</li>
 
 <li>Modern Design: Use of linear gradients, box shadows, and modern UI components.</li>
