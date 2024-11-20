@@ -19,3 +19,14 @@
 <li>Accessible Navigation: Navbar and links for easy user interaction.</li>
 
 
+<h2>Technologies Used</h2>
+<ul>
+    <ul>
+    <li>HTML5: For semantic structure.</li>
+    <li>CSS3: For responsive and modern styling.</li>
+    <li>JavaScript: For dynamic functionalities and validations.</li>
+    <li>Bootstrap 5: For layout and responsive components.</li>
+    <li>Font Awesome: For icons.</li>
+    </ul>
+</ul>
+
