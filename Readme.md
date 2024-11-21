@@ -37,10 +37,12 @@
 
 <li>index.js: Contains JavaScript functionalities such as:</li><br>
 <ul>
-<li>Navbar scroll effects.</li>
-<li>Smooth scrolling.</li>
-<li>Form validation.</li>
-<li>Carousel controls.</li>
+    <ul>
+    <li>Navbar scroll effects.</li>
+    <li>Smooth scrolling.</li>
+    <li>Form validation.</>
+    <li>Carousel controls.</li>
+    </ul>
 </ul>
 
 <h2>Technologies Used:</h2>
