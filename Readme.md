@@ -21,6 +21,19 @@
 <li><strong>Accessible Navigation</strong>: Navbar and links for easy user interaction.</li>
 
 
+<h2>File Structure</h2>
+
+<h2>HTML Files:</h2>
+
+<li>index.html: The main structure of the website including sections for Home, About Us, Rooms, Services, Gallery, Contact, and Footer.</li>
+
+<h2>CSS Files</h2>
+
+<li>main.css: Styles the layout and design of the webpage.</li>
+<li>Manages typography, colors, and responsive behavior.</li>
+<li>Includes animation keyframes and hover effects for dynamic UI.</li>
+
+
 <h2>Technologies Used:</h2>
 <ul>
     <ul>
