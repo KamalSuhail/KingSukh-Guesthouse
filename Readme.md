@@ -35,7 +35,7 @@
 
 <h2>JavaScript Files:</h2>
 
-<li>index.js: Contains JavaScript functionalities such as:</li>
+<li>index.js: Contains JavaScript functionalities such as:</li><br>
 <ul>
 <li>Navbar scroll effects.</li>
 <li>Smooth scrolling.</li>
