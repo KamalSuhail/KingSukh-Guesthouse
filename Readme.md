@@ -45,6 +45,52 @@
     </ul>
 </ul>
 
+
+<h2>Sections Overview:</h2>
+
+1. Navbar
+
+<li>Fixed at the top with smooth scroll functionality.</li>
+<li>Collapsible menu for smaller screens.</li>
+<li>Includes a call-to-action button for booking rooms.</li>
+
+2. Carousel
+
+<li>A slideshow of guest house images, transitioning every 2 seconds.</li>
+
+3. Hero Section
+
+<li>Welcome message with dynamic call-to-action buttons.</li>
+
+4. About Us
+
+<li>Overview of the guest house's features and nearby attractions.</li>
+<li>Includes buttons for booking, address redirection, and calling the contact number.</li>
+
+5. Rooms
+
+<li>Grid layout displaying various room options with descriptions, images, and pricing.</li>
+
+6. Services
+
+<li>Showcases the services provided with icons, titles, and short descriptions.</li>
+
+7. Gallery
+
+<li>Displays images in a grid with zoom effects.</li>
+<li>Clickable images open in a lightbox for better viewing.</li>
+
+8. Contact
+
+<li>A form for users to send messages.</li>
+<li>Interactive icons for phone, email, and social media links.</li>
+<li>Google Maps iframe for location display.</li>
+
+9. Footer
+
+<li>Quick links, contact details, and social media links.</li>
+
+
 <h2>Technologies Used:</h2>
 <ul>
     <ul>
