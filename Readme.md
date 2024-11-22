@@ -48,72 +48,90 @@
 
 <h2>Sections Overview:</h2>
 
-1. Navbar
+1. Navbar:
 
 <ul>
-    <li>Fixed at the top with smooth scroll functionality.</li>
-    <li>Collapsible menu for smaller screens.</li>
-    <li>Includes a call-to-action button for booking rooms.</li>
+    <ul>
+        <li>Fixed at the top with smooth scroll functionality.</li>
+        <li>Collapsible menu for smaller screens.</li>
+        <li>Includes a call-to-action button for booking rooms.</li>
+    </ul>
 </ul>
 <br>
 
-2. Carousel
+2. Carousel:
 
 <ul>
-    <li>A slideshow of guest house images, transitioning every 2 seconds.</li>
+    <ul>
+        <li>A slideshow of guest house images, transitioning every 2 seconds.</li>
+    </ul>
 </ul>
 <br>
 
-3. Hero Section
+3. Hero Section:
 
 <ul>
-    <li>Welcome message with dynamic call-to-action buttons.</li>
+    <ul>
+        <li>Welcome message with dynamic call-to-action buttons.</li>
+    </ul>
 </ul>
 <br>
 
-4. About Us
+4. About Us:
 
 <ul>
-    <li>Overview of the guest house's features and nearby attractions.</li>
-    <li>Includes buttons for booking, address redirection, and calling the contact number.</li>
+    <ul> 
+        <li>Overview of the guest house's features and nearby attractions.</li>
+        <li>Includes buttons for booking, address redirection, and calling the contact number.</li>
+    </ul>
 </ul>
 <br>
 
-5. Rooms
+5. Rooms:
 
 <ul>
-    <li>Grid layout displaying various room options with descriptions, images, and pricing.</li>
+    <ul>
+        <li>Grid layout displaying various room options with descriptions, images, and pricing.</li>
+    </ul>
 </ul>
 <br>
 
-6. Services
+6. Services:
 
 <ul>
-    <li>Showcases the services provided with icons, titles, and short descriptions.</li>
+    <ul>
+        <li>Showcases the services provided with icons, titles, and short descriptions.</li>
+    </ul>
 </ul>
 <br>
 
-7. Gallery
+7. Gallery:
 
 <uL>
-    <li>Displays images in a grid with zoom effects.</li>
-    <li>Clickable images open in a lightbox for better viewing.</li>
-</uL>
-<br>
-
-8. Contact
-
-<ul>
-    <li>A form for users to send messages.</li>
-    <li>Interactive icons for phone, email, and social media links.</li>
-    <li>Google Maps iframe for location display.</li>
+    <ul>
+        <li>Displays images in a grid with zoom effects.</li>
+        <li>Clickable images open in a lightbox for better viewing.</li>
+    </uL>
 </ul>
 <br>
 
-9. Footer
+8. Contact:
 
 <ul>
-    <li>Quick links, contact details, and social media links.</li>
+    <ul>
+        <li>A form for users to send messages.</li>
+        <li>Interactive icons for phone, email, and social media links.</li>
+        <li>Google Maps iframe for location display.</li>
+    </ul>
+</ul>
+<br>
+
+9. Footer:
+
+<ul>
+    <ul>
+        <li>Quick links, contact details, and social media links.</li>
+    </ul>
 </ul>
 <br>
 
