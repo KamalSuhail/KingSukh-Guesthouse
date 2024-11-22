@@ -50,46 +50,72 @@
 
 1. Navbar
 
-<li>Fixed at the top with smooth scroll functionality.</li>
-<li>Collapsible menu for smaller screens.</li>
-<li>Includes a call-to-action button for booking rooms.</li>
+<ul>
+    <li>Fixed at the top with smooth scroll functionality.</li>
+    <li>Collapsible menu for smaller screens.</li>
+    <li>Includes a call-to-action button for booking rooms.</li>
+</ul>
+<br>
 
 2. Carousel
 
-<li>A slideshow of guest house images, transitioning every 2 seconds.</li>
+<ul>
+    <li>A slideshow of guest house images, transitioning every 2 seconds.</li>
+</ul>
+<br>
 
 3. Hero Section
 
-<li>Welcome message with dynamic call-to-action buttons.</li>
+<ul>
+    <li>Welcome message with dynamic call-to-action buttons.</li>
+</ul>
+<br>
 
 4. About Us
 
-<li>Overview of the guest house's features and nearby attractions.</li>
-<li>Includes buttons for booking, address redirection, and calling the contact number.</li>
+<ul>
+    <li>Overview of the guest house's features and nearby attractions.</li>
+    <li>Includes buttons for booking, address redirection, and calling the contact number.</li>
+</ul>
+<br>
 
 5. Rooms
 
-<li>Grid layout displaying various room options with descriptions, images, and pricing.</li>
+<ul>
+    <li>Grid layout displaying various room options with descriptions, images, and pricing.</li>
+</ul>
+<br>
 
 6. Services
 
-<li>Showcases the services provided with icons, titles, and short descriptions.</li>
+<ul>
+    <li>Showcases the services provided with icons, titles, and short descriptions.</li>
+</ul>
+<br>
 
 7. Gallery
 
-<li>Displays images in a grid with zoom effects.</li>
-<li>Clickable images open in a lightbox for better viewing.</li>
+<uL>
+    <li>Displays images in a grid with zoom effects.</li>
+    <li>Clickable images open in a lightbox for better viewing.</li>
+</uL>
+<br>
 
 8. Contact
 
-<li>A form for users to send messages.</li>
-<li>Interactive icons for phone, email, and social media links.</li>
-<li>Google Maps iframe for location display.</li>
+<ul>
+    <li>A form for users to send messages.</li>
+    <li>Interactive icons for phone, email, and social media links.</li>
+    <li>Google Maps iframe for location display.</li>
+</ul>
+<br>
 
 9. Footer
 
-<li>Quick links, contact details, and social media links.</li>
-
+<ul>
+    <li>Quick links, contact details, and social media links.</li>
+</ul>
+<br>
 
 <h2>Technologies Used:</h2>
 <ul>
