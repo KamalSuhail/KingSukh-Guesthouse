@@ -58,7 +58,6 @@
     </ul>
 </ul>
 <br>
-
 2. Carousel:
 
 <ul>
@@ -67,7 +66,6 @@
     </ul>
 </ul>
 <br>
-
 3. Hero Section:
 
 <ul>
@@ -76,7 +74,6 @@
     </ul>
 </ul>
 <br>
-
 4. About Us:
 
 <ul>
@@ -86,7 +83,6 @@
     </ul>
 </ul>
 <br>
-
 5. Rooms:
 
 <ul>
@@ -95,7 +91,6 @@
     </ul>
 </ul>
 <br>
-
 6. Services:
 
 <ul>
@@ -104,7 +99,6 @@
     </ul>
 </ul>
 <br>
-
 7. Gallery:
 
 <uL>
@@ -114,7 +108,6 @@
     </uL>
 </ul>
 <br>
-
 8. Contact:
 
 <ul>
@@ -125,7 +118,6 @@
     </ul>
 </ul>
 <br>
-
 9. Footer:
 
 <ul>
