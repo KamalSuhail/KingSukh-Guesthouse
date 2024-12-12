@@ -190,3 +190,12 @@ Welcome to the KingSukh Guest House project repository! This interactive website
 - HTML5, CSS3, JavaScript
 - Bootstrap 5 for responsive layout
 - Font Awesome for icons
+
+## Getting Started
+1. Clone the repository: 
+<code>git clone https://github.com/your-username/kingsukh-guesthouse.git</code> 
+
+2. Open index.html in a browser to view the project.
+
+## Screenshots
+![Homepage](path/to/homepage-screenshot.png)
