@@ -160,7 +160,6 @@ Welcome to the KingSukh Guest House project repository! This interactive website
 - [Getting Started](#getting-started)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - **Responsive Design**: Optimized for desktop devices.
@@ -198,4 +197,12 @@ Welcome to the KingSukh Guest House project repository! This interactive website
 2. Open index.html in a browser to view the project.
 
 ## Screenshots
-![Homepage](path/to/homepage-screenshot.png)
+![Homepage](assets/HomePage.png)
+
+## Contributing
+### Contributions are welcome! Follow the steps below:
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Commit your changes (git commit -m "Add feature").
+4. Push the branch (git push origin feature-branch).
+5. Open a pull request.
