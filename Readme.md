@@ -177,3 +177,16 @@ Welcome to the KingSukh Guest House project repository! This interactive website
 - index.html: Main webpage structure.
 - main.css: Styles for layout, typography, and animations.
 - index.js: JavaScript for smooth scrolling, carousel, and form validation.
+
+## Sections Overview
+- Navbar: Fixed with smooth scroll and responsive menu.
+- About Us: Overview of the guest house's features and nearby attractions.
+- Rooms: Grid layout for room details, images, and pricing.
+- Services: Showcases the services provided with icons, titles, and short descriptions.
+- Gallery: Displays images in a grid with zoom effects.
+- Contact: Interactive form with Google Maps integration.
+
+## Technologies Used
+- HTML5, CSS3, JavaScript
+- Bootstrap 5 for responsive layout
+- Font Awesome for icons
