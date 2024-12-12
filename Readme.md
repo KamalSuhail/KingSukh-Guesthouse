@@ -175,7 +175,5 @@ Welcome to the KingSukh Guest House project repository! This interactive website
 ## File Structure
 ```plaintext
 - index.html: Main webpage structure.
-- css/
-  - main.css: Styles for layout, typography, and animations.
-- js/
-  - index.js: JavaScript for smooth scrolling, carousel, and form validation.
+- main.css: Styles for layout, typography, and animations.
+- index.js: JavaScript for smooth scrolling, carousel, and form validation.
