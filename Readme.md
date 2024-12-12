@@ -173,7 +173,7 @@ Welcome to the KingSukh Guest House project repository! This interactive website
   - Accessible navigation with a responsive navbar.
 
 ## File Structure
-```plaintext
+
 - index.html: Main webpage structure.
 <br>
 - main.css: Styles for layout, typography, and animations.
