@@ -202,7 +202,7 @@ Welcome to the KingSukh Guest House project repository! This interactive website
 ## Contributing
 ### Contributions are welcome! Follow the steps below:
 1. Fork the repository.
-2. Create a new branch (git checkout -b feature-branch).
-3. Commit your changes (git commit -m "Add feature").
-4. Push the branch (git push origin feature-branch).
+2. Create a new branch <code>(git checkout -b feature-branch).</code>
+3. Commit your changes <code>(git commit -m "Add feature").</code>
+4. Push the branch <code>(git push origin feature-branch).</code>
 5. Open a pull request.
