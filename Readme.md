@@ -1,4 +1,4 @@
-<h1>KingSukh Guest House<h1>
+<!-- <h1>KingSukh Guest House<h1>
 
 <h2>Welcome to the KingSukh Guest House project repository. This website serves as an interactive platform to showcase the rooms, services, and contact information for the guest house.</h2>
 
@@ -145,4 +145,37 @@
     <li>Font Awesome: For icons.</li>
     </ul>
 </ul>
+ -->
 
+
+# KingSukh Guest House
+
+Welcome to the KingSukh Guest House project repository! This interactive website showcases the rooms, services, and contact information for the guest house.
+
+## Table of Contents
+- [Features](#features)
+- [File Structure](#file-structure)
+- [Sections Overview](#sections-overview)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+- **Responsive Design**: Optimized for desktop devices.
+- **Interactive Sections**:
+  - Carousel for showcasing images.
+  - Smooth scrolling for navigation.
+  - Form validation for user input.
+- **Modern UI Elements**:
+  - Linear gradients, box shadows, and hover animations.
+  - Accessible navigation with a responsive navbar.
+
+## File Structure
+```plaintext
+- index.html: Main webpage structure.
+- css/
+  - main.css: Styles for layout, typography, and animations.
+- js/
+  - index.js: JavaScript for smooth scrolling, carousel, and form validation.
