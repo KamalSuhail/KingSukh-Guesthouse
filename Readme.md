@@ -1,7 +1,7 @@
 
 # KingSukh Guest House
 
-Welcome to the KingSukh Guest House project repository! This interactive website showcases the rooms, services, and contact information for the guest house.
+Welcome to the KingSukh Guest House project repository! This interactive website showcases the home,page , about section, rooms, services, gallery, contact form integrate with map section and booking features for the guest house website.
 
 ## Table of Contents
 - [Features](#features)
@@ -40,6 +40,7 @@ Welcome to the KingSukh Guest House project repository! This interactive website
 - HTML5, CSS3, JavaScript
 - Bootstrap 5 for responsive layout
 - Font Awesome for icons
+- Version Control Tool: Git
 
 ## Getting Started
 1. Clone the repository: 
