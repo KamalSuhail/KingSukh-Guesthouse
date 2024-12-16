@@ -1,7 +1,7 @@
 
 # KingSukh Guest House
 
-Welcome to the KingSukh Guest House project repository! This interactive website showcases the home,page , about section, rooms, services, gallery, contact form integrate with map section and booking features for the guest house website.
+Welcome to the KingSukh Guest House project repository! This interactive website showcases the home page , about section, rooms, services, gallery, contact form integrate with map section and booking features for the guest house website.
 
 ## Table of Contents
 - [Features](#features)
