@@ -49,7 +49,7 @@ Welcome to the KingSukh Guest House project repository! This interactive website
 2. Open index.html in a browser to view the project.
 
 ## Screenshots
-![Homepage](assets/HomePage.png)
+![Homepage](assets/Preview.png)
 
 ## Contributing
 ### Contributions are welcome! Follow the steps below:
